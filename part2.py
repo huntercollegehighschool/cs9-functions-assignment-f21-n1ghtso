@@ -8,5 +8,8 @@ The formula for converting from fahrenheit to celsius:
 C = (F - 32) * 5/9
 """
 
-def celsius(f):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+def celsius(f):
+  c = f - 32
+  c = c / 9
+  c = c *5
+  return c
